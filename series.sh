@@ -20,4 +20,6 @@ mv calvin_env calvin_env_repo
 cd calvin_env_repo
 rmdir tacto
 git clone  https://github.com/lukashermann/tacto.git
+cd ../../
+git clone https://github.com/ezhang7423/hulc-data.git --recurse-submodules
 
